@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="matrix_black">#000000</color>
+    <color name="matrix_light_green">#00FF00</color>
+    <color name="matrix_dark_green">#003300</color>
+    <color name="matrix_green">#008000</color>
+    <color name="matrix_blue">#0000FF</color>
+    <color name="matrix_neon_green">#39FF14</color> <!-- Neon green for a glowing effect -->
+    <color name="matrix_dark">#1C1C1C</color> <!-- Darker shade for depth -->
+</resources>

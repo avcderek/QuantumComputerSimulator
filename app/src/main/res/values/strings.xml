@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quantum Computer Simulator</string>
+    <string name="number_of_qubits">Number of Qubits</string>
+    <string name="qubit_states">Qubit States</string>
+    <string name="quantum_circuit">Quantum Circuit</string>
+    <string name="view_bloch_sphere">View Bloch Sphere</string>
+    <string name="add_gate">Add Gate</string>
+    <string name="run_circuit">Run Circuit</string>
+    <string name="measure_all_qubits">Measure All Qubits</string>
+    <string name="explain_quantum_concepts">Explain Quantum Concepts</string>
+    <string name="undo">Undo</string>
+    <string name="quantum_puzzle_game">Quantum Puzzle Game</string>
+
+    <string-array name="qubit_counts">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

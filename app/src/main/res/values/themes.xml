@@ -1,0 +1,28 @@
+<resources>
+    <style name="Theme.QuantumSimulator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/matrix_green</item>
+        <item name="colorPrimaryVariant">@color/matrix_dark_green</item>
+        <item name="colorOnPrimary">@color/matrix_black</item>
+        <item name="colorSecondary">@color/matrix_light_green</item>
+        <item name="colorSecondaryVariant">@color/matrix_blue</item>
+        <item name="colorOnSecondary">@color/matrix_black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@color/matrix_green</item>
+    </style>
+
+    <style name="MatrixAlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/matrix_black</item>
+        <item name="android:textColor">@color/matrix_green</item>
+        <item name="android:textColorPrimary">@color/matrix_light_green</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/MatrixPositiveButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/MatrixNegativeButtonStyle</item>
+    </style>
+
+    <style name="MatrixPositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/matrix_light_green</item>
+    </style>
+
+    <style name="MatrixNegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/matrix_green</item>
+    </style>
+</resources>
